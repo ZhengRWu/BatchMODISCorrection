@@ -1,0 +1,24 @@
+{
+  "name":"BatchMODISFiles",
+  "displayName":"BatchMODISFiles",
+  "executionType":"asynchronous",
+  "invocationType":"keywords",
+  "taskReset":"no",
+  "version":"5.3.1",
+  "parameters":[
+    {
+      "name":"input",
+      "displayName":"Input",
+      "dataType":"long",
+      "direction":"input",
+      "parameterType":"required"
+    },
+    {
+      "name":"output",
+      "displayName":"Output",
+      "dataType":"long",
+      "direction":"output",
+      "parameterType":"required"
+    }
+  ]
+}
